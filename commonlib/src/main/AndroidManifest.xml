@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sc.com.commonlib">
+
+    <application>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="sc.com.commonlib.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+
+        </provider>
+        <service
+            android:name=".common.network.service.NetWorkService"
+            android:exported="false"
+            android:process="star_citizen.network"
+            >
+
+        </service>
+
+    </application>
+
+
+</manifest>

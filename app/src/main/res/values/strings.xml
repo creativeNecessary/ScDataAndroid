@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">星际公民资料BETA</string>
+    <string name="app_statement">本应用仅供娱乐查看，不得作为商业用途</string>
+    <string name="ships_info">载具列表</string>
+    <string name="draw_open">draw_open</string>
+    <string name="draw_close">draw_close</string>
+
+    <string name="ship_name">名称</string>
+    <string name="ship_name_en">英文名</string>
+    <string name="ship_name_ch">中文名</string>
+    <string name="ship_size">尺寸</string>
+    <string name="ship_focus">定位</string>
+    <string name="ship_max_crew">最大成员</string>
+    <string name="ship_length">长度</string>
+    <string name="ship_description">简介</string>
+    <string name="ship_manufacturer">制造商</string>
+    <string name="ship_price_dollar">价格(美元/人民币)</string>
+
+    <string name="length">长</string>
+    <string name="beam">宽</string>
+    <string name="height">高</string>
+
+    <string name="size">挂点尺寸</string>
+    <string name="component_size">安装尺寸</string>
+
+    <string name="type">类型</string>
+    <string name="quantity">携带数量</string>
+
+    <string name="model">型号</string>
+    <string name="cargo_capacity">载货量</string>
+    <string name="mass">空重</string>
+    <string name="scm_speed">子巡航速度</string>
+    <string name="afterburner_speed">加力燃烧速度</string>
+    <string name="none">无</string>
+    <string name="update_check">版本检测</string>
+    <string name="version_focus">版本功能</string>
+    <string name="confirm">确定</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="galaxy_guide">银河指南</string>
+    <string name="filter">筛选</string>
+    <string name="search">搜索</string>
+    <string name="down_load_tips">如果下载速度过慢 请点击上面的下载地址自行下载</string>
+    <string name="clear">清空</string>
+    <string name="now_choose">当前选中</string>
+
+    <string name="update_ticker">New Version %s </string>
+    <string name="permission_denied">有权限未获取,请打开设置,放开权限</string>
+    <string name="no_function">施工中</string>
+
+
+
+
+
+</resources>

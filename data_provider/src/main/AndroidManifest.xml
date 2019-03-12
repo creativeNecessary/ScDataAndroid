@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sc.com.data_provider" >
+
+    <application>
+        <provider
+            android:exported="false"
+            android:authorities="sc.com.database.contentProvider"
+            android:name=".content_provider.ScContentProvider"/>
+
+    </application>
+</manifest>

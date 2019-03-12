@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ship_details_bg">
+
+    <ImageView
+        android:id="@+id/manufacturer_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/manufacturer_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/manufacturer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/ship_details_text_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/name_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/manufacturer_image"
+        tools:text="RSI" />
+
+    <TextView
+        android:id="@+id/name_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_name_en"
+        app:layout_constraintBottom_toTopOf="@id/name_ch_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/manufacturer_text"
+
+        />
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/name_constant"
+        app:layout_constraintTop_toTopOf="@id/name_constant"
+        tools:text="F7C"
+        />
+
+    <TextView
+        android:id="@+id/name_ch_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_name_ch"
+        app:layout_constraintBottom_toTopOf="@id/price_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/name_ch_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/name_ch_constant"
+        app:layout_constraintTop_toTopOf="@id/name_ch_constant"
+        tools:text="F7C"
+        />
+
+
+
+    <TextView
+        android:id="@+id/price_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_price_dollar"
+        app:layout_constraintBottom_toTopOf="@id/size_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_ch_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/price_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/price_constant"
+        app:layout_constraintTop_toTopOf="@+id/price_constant"
+        tools:text="F7C"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/size_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_size"
+        app:layout_constraintBottom_toTopOf="@id/focus_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/size_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/size_constant"
+        app:layout_constraintTop_toTopOf="@+id/size_constant"
+        tools:text="F7C"
+
+        />
+
+
+    <TextView
+        android:id="@+id/focus_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_focus"
+        app:layout_constraintBottom_toTopOf="@id/max_crew_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/size_constant"
+
+
+        />
+
+    <TextView
+        android:id="@+id/focus_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/focus_constant"
+        app:layout_constraintTop_toTopOf="@+id/focus_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/max_crew_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/ship_max_crew"
+        app:layout_constraintBottom_toTopOf="@id/cargo_capacity_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/focus_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/max_crew_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/max_crew_constant"
+        app:layout_constraintTop_toTopOf="@+id/max_crew_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/cargo_capacity_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cargo_capacity"
+        app:layout_constraintBottom_toTopOf="@id/mass_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/max_crew_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/cargo_capacity_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/cargo_capacity_constant"
+        app:layout_constraintTop_toTopOf="@+id/cargo_capacity_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/mass_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/mass"
+        app:layout_constraintBottom_toTopOf="@id/scm_speed_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cargo_capacity_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/mass_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/mass_constant"
+        app:layout_constraintTop_toTopOf="@+id/mass_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/scm_speed_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/scm_speed"
+        app:layout_constraintBottom_toTopOf="@id/afterburner_speed_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mass_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/scm_speed_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/scm_speed_constant"
+        app:layout_constraintTop_toTopOf="@+id/scm_speed_constant"
+        tools:text="F7C"
+
+        />
+
+
+    <TextView
+        android:id="@+id/afterburner_speed_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/afterburner_speed"
+        app:layout_constraintBottom_toTopOf="@id/length_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scm_speed_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/afterburner_speed_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/afterburner_speed_constant"
+        app:layout_constraintTop_toTopOf="@+id/afterburner_speed_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/length_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/length"
+        app:layout_constraintBottom_toTopOf="@id/beam_constant"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/afterburner_speed_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/length_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/length_constant"
+        app:layout_constraintTop_toTopOf="@+id/length_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:id="@+id/beam_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/beam"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/length_constant"
+        app:layout_constraintBottom_toTopOf="@id/height_constant"
+
+        />
+
+    <TextView
+        android:id="@+id/beam_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/beam_constant"
+        app:layout_constraintTop_toTopOf="@+id/beam_constant"
+        tools:text="F7C"
+
+        />
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/height_constant"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/beam_constant"
+        />
+
+    <TextView
+        android:id="@+id/height_text"
+        style="@style/ShipDetailTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintLeft_toRightOf="@id/height_constant"
+        app:layout_constraintTop_toTopOf="@+id/height_constant"
+        tools:text="F7C"
+
+        />
+
+</android.support.constraint.ConstraintLayout>

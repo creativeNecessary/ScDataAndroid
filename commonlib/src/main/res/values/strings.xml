@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">CommonLib</string>
+    <string name="down_apk_success" translatable="false">下载成功,准备安装</string>
+    <string name="start_net_work_service" translatable="false">正在启动NetWork服务</string>
+
+</resources>

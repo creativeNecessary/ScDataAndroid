@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sc.com.scdataview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+
+    <application
+        android:name=".ScApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_ship_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".applogiclayer.welcome.WelComeActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".applogiclayer.host.HostActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".applogiclayer.ship3d.Ship3DActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".applogiclayer.shipinfo.ShipDetailsActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:fitsSystemWindows="true" />
+        <activity
+            android:name=".applogiclayer.TestActivity"
+            />
+        <activity
+            android:name=".applogiclayer.ship3d.DownloadModelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applogiclayer.PermissionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".applogiclayer.commlink.CommLinkListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applogiclayer.commlink.CommLinkDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applogiclayer.shiplist.ShipListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applogiclayer.shipfilter.ShipFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".applogiclayer.shipsearch.ShipSearchActivity"
+            android:windowSoftInputMode="stateAlwaysVisible"
+            android:screenOrientation="portrait" />
+        <activity android:name=".base.LoadingActivity" />
+    </application>
+
+</manifest>

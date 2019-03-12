@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScDataAndroid.iml" filepath="$PROJECT_DIR$/ScDataAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_provider/data_provider.iml" filepath="$PROJECT_DIR$/data_provider/data_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer/ijkplayer.iml" filepath="$PROJECT_DIR$/ijkplayer/ijkplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/image_banner/image_banner.iml" filepath="$PROJECT_DIR$/image_banner/image_banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycler_helper/recycler_helper.iml" filepath="$PROJECT_DIR$/recycler_helper/recycler_helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc3dview/sc3dview.iml" filepath="$PROJECT_DIR$/sc3dview/sc3dview.iml" />
+    </modules>
+  </component>
+</project>
